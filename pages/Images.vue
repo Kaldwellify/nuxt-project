@@ -75,6 +75,17 @@ export default {
       ],
     };
   },
+    head() {
+      return {
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Take a look at the different kinds of workouts and what they do!'
+          }
+        ]
+      }
+    }
 };
 </script>
 

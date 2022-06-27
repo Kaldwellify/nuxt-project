@@ -23,7 +23,18 @@ export default {
       subtitle:
         "Welcome to the lesson 7 version of this website! Same pages! Different Coding!",
     };
-  }
+  },
+  head() {
+      return {
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Home page of the workout/inspiration nuxt project!'
+          },
+        ]
+      }
+    }
 }
 </script>
 

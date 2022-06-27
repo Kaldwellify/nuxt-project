@@ -38,6 +38,17 @@ export default {
         })
             .finally(() => this.loading = false);
     },
+      head() {
+      return {
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'Get inspired with this HUGE list of inspirational quotes!'
+          }
+        ]
+      }
+    }
 }
 </script>
 
